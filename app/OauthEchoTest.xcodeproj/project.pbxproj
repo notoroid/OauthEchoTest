@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878BF1131544636F00B5352E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878BF1121544636F00B5352E /* UIKit.framework */; };
+		878BF1151544636F00B5352E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878BF1141544636F00B5352E /* Foundation.framework */; };
+		878BF1171544636F00B5352E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878BF1161544636F00B5352E /* CoreGraphics.framework */; };
+		878BF11D1544636F00B5352E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 878BF11B1544636F00B5352E /* InfoPlist.strings */; };
+		878BF11F1544636F00B5352E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878BF11E1544636F00B5352E /* main.m */; };
+		878BF1231544636F00B5352E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878BF1221544636F00B5352E /* AppDelegate.m */; };
+		878BF1261544636F00B5352E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878BF1241544636F00B5352E /* MainStoryboard.storyboard */; };
+		878BF1291544636F00B5352E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878BF1281544636F00B5352E /* ViewController.m */; };
+		878BF1301544638D00B5352E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878BF12F1544638D00B5352E /* Accounts.framework */; };
+		878BF1321544639300B5352E /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878BF1311544639300B5352E /* Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		878BF10E1544636F00B5352E /* OauthEchoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OauthEchoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		878BF1121544636F00B5352E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		878BF1141544636F00B5352E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		878BF1161544636F00B5352E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		878BF11A1544636F00B5352E /* OauthEchoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OauthEchoTest-Info.plist"; sourceTree = "<group>"; };
+		878BF11C1544636F00B5352E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		878BF11E1544636F00B5352E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		878BF1201544636F00B5352E /* OauthEchoTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OauthEchoTest-Prefix.pch"; sourceTree = "<group>"; };
+		878BF1211544636F00B5352E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		878BF1221544636F00B5352E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		878BF1251544636F00B5352E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		878BF1271544636F00B5352E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		878BF1281544636F00B5352E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		878BF12F1544638D00B5352E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		878BF1311544639300B5352E /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		878BF10B1544636F00B5352E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878BF1321544639300B5352E /* Twitter.framework in Frameworks */,
+				878BF1301544638D00B5352E /* Accounts.framework in Frameworks */,
+				878BF1131544636F00B5352E /* UIKit.framework in Frameworks */,
+				878BF1151544636F00B5352E /* Foundation.framework in Frameworks */,
+				878BF1171544636F00B5352E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		878BF1031544636F00B5352E = {
+			isa = PBXGroup;
+			children = (
+				878BF1311544639300B5352E /* Twitter.framework */,
+				878BF12F1544638D00B5352E /* Accounts.framework */,
+				878BF1181544636F00B5352E /* OauthEchoTest */,
+				878BF1111544636F00B5352E /* Frameworks */,
+				878BF10F1544636F00B5352E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		878BF10F1544636F00B5352E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878BF10E1544636F00B5352E /* OauthEchoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		878BF1111544636F00B5352E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				878BF1121544636F00B5352E /* UIKit.framework */,
+				878BF1141544636F00B5352E /* Foundation.framework */,
+				878BF1161544636F00B5352E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		878BF1181544636F00B5352E /* OauthEchoTest */ = {
+			isa = PBXGroup;
+			children = (
+				878BF1211544636F00B5352E /* AppDelegate.h */,
+				878BF1221544636F00B5352E /* AppDelegate.m */,
+				878BF1241544636F00B5352E /* MainStoryboard.storyboard */,
+				878BF1271544636F00B5352E /* ViewController.h */,
+				878BF1281544636F00B5352E /* ViewController.m */,
+				878BF1191544636F00B5352E /* Supporting Files */,
+			);
+			path = OauthEchoTest;
+			sourceTree = "<group>";
+		};
+		878BF1191544636F00B5352E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				878BF11A1544636F00B5352E /* OauthEchoTest-Info.plist */,
+				878BF11B1544636F00B5352E /* InfoPlist.strings */,
+				878BF11E1544636F00B5352E /* main.m */,
+				878BF1201544636F00B5352E /* OauthEchoTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		878BF10D1544636F00B5352E /* OauthEchoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878BF12C1544636F00B5352E /* Build configuration list for PBXNativeTarget "OauthEchoTest" */;
+			buildPhases = (
+				878BF10A1544636F00B5352E /* Sources */,
+				878BF10B1544636F00B5352E /* Frameworks */,
+				878BF10C1544636F00B5352E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OauthEchoTest;
+			productName = OauthEchoTest;
+			productReference = 878BF10E1544636F00B5352E /* OauthEchoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		878BF1051544636F00B5352E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 878BF1081544636F00B5352E /* Build configuration list for PBXProject "OauthEchoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 878BF1031544636F00B5352E;
+			productRefGroup = 878BF10F1544636F00B5352E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				878BF10D1544636F00B5352E /* OauthEchoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		878BF10C1544636F00B5352E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878BF11D1544636F00B5352E /* InfoPlist.strings in Resources */,
+				878BF1261544636F00B5352E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		878BF10A1544636F00B5352E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878BF11F1544636F00B5352E /* main.m in Sources */,
+				878BF1231544636F00B5352E /* AppDelegate.m in Sources */,
+				878BF1291544636F00B5352E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		878BF11B1544636F00B5352E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878BF11C1544636F00B5352E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		878BF1241544636F00B5352E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878BF1251544636F00B5352E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		878BF12A1544636F00B5352E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		878BF12B1544636F00B5352E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		878BF12D1544636F00B5352E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OauthEchoTest/OauthEchoTest-Prefix.pch";
+				INFOPLIST_FILE = "OauthEchoTest/OauthEchoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		878BF12E1544636F00B5352E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OauthEchoTest/OauthEchoTest-Prefix.pch";
+				INFOPLIST_FILE = "OauthEchoTest/OauthEchoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		878BF1081544636F00B5352E /* Build configuration list for PBXProject "OauthEchoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878BF12A1544636F00B5352E /* Debug */,
+				878BF12B1544636F00B5352E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878BF12C1544636F00B5352E /* Build configuration list for PBXNativeTarget "OauthEchoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878BF12D1544636F00B5352E /* Debug */,
+				878BF12E1544636F00B5352E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 878BF1051544636F00B5352E /* Project object */;
+}
